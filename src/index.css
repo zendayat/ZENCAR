@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.jetbrains-mono{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mystroke{
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+}
+body{
+  background-color: #1a1919;
+}
+.shadow1{
+  box-shadow: 8px 8px 34px -10px rgba(20,19,19,0.75);
+-webkit-box-shadow: 8px 8px 34px -10px rgba(20,19,19,0.75);
+-moz-box-shadow: 8px 8px 34px -10px rgba(20,19,19,0.75);
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.btn-primary {
+  background-color: #bd5805;
+  cursor: pointer;
+}
+.btn-secondary {
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  border-color: #ffffff;
+}
+.btn-secondary:hover {
+  border: none;
+}
+
