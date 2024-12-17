@@ -3,7 +3,7 @@ import {  PiNumberOne, PiNumberThree, PiNumberTwo } from 'react-icons/pi'
 
 const Services = () => {
   return (
-    <div className=' bg-black h-fit w-[100vw] relative z-30 p-5 pb-16'>
+    <div className=' bg-black h-fit w-[100vw] relative z-30 p-5 pb-24'>
         <div className=' bg-orange-500 w-[2px] h-20 mx-auto'></div>
         <div className="content mt-16">
             <div className=' text-sm font-normal text-orange-600 tracking-[5px]'>WHAT WE DO</div>
